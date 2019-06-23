@@ -1,0 +1,30 @@
+{
+  "name": "louisoix-electron",
+  "version": "0.5.0",
+  "description": "An Electron app that utilizes Node, JavaScript frameworks/libraries, and community APIs to create a Final Fantasy XIV desktop app.",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^5.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CannoliSquid/louisoix-electron.git"
+  },
+  "keywords": [
+    "electron",
+    "ffxiv",
+    "final",
+    "fantasy",
+    "javascript"
+  ],
+  "author": "CannoliSquid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CannoliSquid/louisoix-electron/issues"
+  },
+  "homepage": "https://github.com/CannoliSquid/louisoix-electron#readme"
+}
