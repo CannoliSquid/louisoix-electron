@@ -13,13 +13,14 @@
 
         <v-flex mb-4>
             <h1 class="display-2 font-weight-bold mb-3">
-                Welcome to Vuetify
+                Welcome to Louisoix
             </h1>
             <p class="subheading font-weight-regular">
-                For help and collaboration with other Vuetify developers,
-                <br>please join our online
-            <a href="https://community.vuetifyjs.com" target="_blank">Discord Community</a>
+                A Final Fantasy XIV Information Assistant
+                <br> If you have any issues, please visit the Help page.
             </p>
+
+            
         </v-flex>
 
         <v-flex mb-5 xs12>

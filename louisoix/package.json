@@ -13,7 +13,7 @@
   },
   "main": "background.js",
   "dependencies": {
-    "core-js": "^2.6.5",
+    "core-js": "^2.6.9",
     "vue": "^2.6.10",
     "vuetify": "^1.5.5"
   },
