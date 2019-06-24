@@ -16,15 +16,15 @@
 
         <v-navigation-drawer app v-model="sidemenu" class="grey darken-3">
             <v-list>
-                <v-list-tile v-for="link in links" :key="link.text">
+                <v-list-tile v-for="link in links" :key="link.text" router :to="link.route">
                     <v-list-tile-action>
                         <v-icon class="white--text">{{ link.icon }}</v-icon>
                     </v-list-tile-action>
-                    <v-list-title-content>
+                    <v-list-tile-content>
                         <v-list-tile-title class="white--text">
                             {{ link.text }}
                         </v-list-tile-title>
-                    </v-list-title-content>
+                    </v-list-tile-content>
                 </v-list-tile>
             </v-list>
         </v-navigation-drawer>
@@ -37,9 +37,9 @@ export default {
         return {
             sidemenu: false,
             links: [
-                {icon: 'home', text: 'Home', route:'/'},
-                {icon: 'search', text: 'Search', route:'/search'},
-                {icon: 'info', text: 'About', route:'/about'},
+                {icon: 'home', text: 'Home', route: '/'},
+                {icon: 'search', text: 'Search', route: '/search'},
+                {icon: 'info', text: 'About', route: '/about'},
             ]
         }
     }
